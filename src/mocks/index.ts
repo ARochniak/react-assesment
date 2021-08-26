@@ -1,14 +1,11 @@
 import { shuffle, pause } from 'utils'
 
-
-export const loadUser = async (): Promise<IUserInfo> => {
-  await pause()
-  return {
-    firstname: 'Foo',
-    lastname: 'Bar',
-    age: 30
-  }
-}
+export const loadUser = async (): Promise<IUserInfo> => 
+({
+  firstname: 'Foo',
+  lastname: 'Bar',
+  age: 30
+})
 
 const colors = [
   '#396AB1',

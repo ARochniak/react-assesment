@@ -1,0 +1,27 @@
+.Wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Title {
+  color: #140dda;
+}
+
+.Button {
+  padding: 0.3rem 0.5rem;
+  border: 1px solid #615cf580;
+  border-radius: 4px;
+  color: #625df5;
+  transition: all 0.4s;
+}
+
+.Button:focus {
+  outline: none;
+  border: 1px solid #615cf5;
+}
+
+.Button:hover {
+  transform: scale(1.1);
+}
