@@ -1,0 +1,13 @@
+.List {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 1rem;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.ListItem {
+  padding: 0.3rem;
+}
