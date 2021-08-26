@@ -16,9 +16,7 @@ export const UserContextProvider = ({ children }: UserContextProviderProps) => {
     void initializeUser()
   }, [])
 
-  if (!user) return null
-
-  return <userContext.Provider value={user}>{children}</userContext.Provider>
+  // Complete UserContextProvider
 }
 
 type UserContextProviderProps = {
